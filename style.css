@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -29,9 +29,48 @@ nav {
   align-items: center;
   padding: 0 2rem;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.instructions {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  background-color: rgb(212, 212, 212);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .inner-div {
+  text-align: center;
+}
+
+.inner-div > p {
+  font-size: 1.4rem;
+  padding: 20px 2px 5px 2px;
+}
+.instructions-text {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding: 20px;
+}
 .welcome {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
